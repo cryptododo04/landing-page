@@ -1,4 +1,7 @@
-
+*
+{
+    border: red solid 1px;
+}
 
 body {
     display: flex;
@@ -261,6 +264,7 @@ body {
 
 .footer-text {
     color: white;
+    text-align: center;
 }
 
 
