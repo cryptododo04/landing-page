@@ -1,4 +1,7 @@
-
+*
+{
+    border: red solid 1px;
+}
 
 body {
     display: flex;
@@ -49,6 +52,7 @@ body {
     display: flex;
     gap: 16px;
     align-items: center;
+    text-align: center;
 }
 
 .header-container a{
@@ -109,12 +113,14 @@ body {
 .main-content-1-img {
     display: flex;
     padding: 5px;
+    align-self: center;
 }
 
 .main-content-1-img img{
     border-radius: 5%;
     max-width: 100%;
     max-height: 100%;
+    align-self: center;
     
 }
 
@@ -338,7 +344,14 @@ body {
     }
 
 
+        
+    }
 
+    @media (max-width: 350px) {
+
+        .header-container a{
+            font-size: 12px;
+        }
         
     }
 }
