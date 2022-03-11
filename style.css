@@ -1,4 +1,6 @@
-
+* {
+    border: red solid 1px;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -50,6 +52,7 @@ body {
     align-items: center;
     text-align: center;
 }
+
 
 .header-container a{
     text-decoration: none;
@@ -345,6 +348,9 @@ body {
 
     @media (max-width: 350px) {
 
+        .header-text-container h2{
+            font-size: 14px;
+        }
         .header-container a{
             font-size: 12px;
         }
