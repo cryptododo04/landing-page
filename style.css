@@ -1,7 +1,4 @@
 
-* {
-    border: solid red 1px;
-}
 
 body {
     display: flex;
@@ -252,6 +249,20 @@ body {
     color: white;
 }
 
+/*----Footer CSS Adjustments----*/
+
+.footer-container{
+    background-color: #1F2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+}
+
 
 /* ------------Mobile CSS adjustments-------------- */
 
@@ -311,7 +322,9 @@ body {
 
     .card-container{
         min-width: 255px;
+        justify-content: space-around;
     }
+
     .card-img{
         width: 90px;
         height: 90px;
